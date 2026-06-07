@@ -1,0 +1,28 @@
+import numpy as np
+
+#This is how to change the shape of an array without changing its data
+a = np.arange(12)  # creates [0, 1, 2, ... 11]
+print(a)
+print(a.shape)     # (12,) — one row of 12
+
+b = a.reshape(3, 4)  # reshape into 3 rows, 4 columns
+print(b)
+print(b.shape)     # (3, 4)
+
+c = a.reshape(2, 6)  # reshape into 2 rows, 6 columns
+print(c)
+
+#Stacking Arrays together
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+print(np.vstack([a, b]))  # stack vertically (on top of each other)
+print(np.hstack([a, b]))  # stack horizontally (side by side)
+
+#lingalg sneak peak
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[5, 6], [7, 8]])
+
+print(np.dot(a, b))       # matrix multiplication
+print(np.linalg.inv(a))   # inverse of a matrix
+print(np.linalg.norm(a))  # magnitude/norm of a matrix

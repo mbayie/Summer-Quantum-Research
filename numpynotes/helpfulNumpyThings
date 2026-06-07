@@ -1,0 +1,17 @@
+import numpy as np
+
+#This file will contain other things that may be helpful to remember/know throughout my summer research project
+
+#Boolean indexing -- filtering an array based on conditions  
+a = np.array([1, 2, 3, 4, 5])
+print(a[a>3]) # → [4, 5]
+
+#Random number generation
+np.random.rand(3, 3)      # 3x3 matrix of random numbers
+np.random.randint(0, 10, size=(3,3))  # random integers
+
+#Coping arrays
+a = np.array([1, 2, 3])
+b = a        # b and a point to the SAME data!
+c = a.copy() # c is a truly independent copy
+
