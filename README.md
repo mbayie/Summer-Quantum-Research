@@ -4,12 +4,11 @@
 My first repo tracking my 2026 Quantum Computing research, consisting of weekly updates and computational implementations in quantum computing (QC) and machine learning (ML).
 
 ## Project Overview
-This repo documents a Research project I completed during the summer of my senior year that looked at Quantum Computing efficiency in classifying promoter and non-promoter DNA sequences.
+This repo documents a research project I completed during the summer of my senior year in high school that looked at quantum computing's efficiency in classifying promoter and non-promoter DNA sequences.
 
 ### Focus Areas
 * **Quantum Machine Learning:** Hybrid classical-quantum classification models
 * **Genomics:** DNA promoter sequence classification
-* **Quantum Simulation:** High-performance circuit vectorization & sampling
   
 ## Tech Stack & Dependencies
 
@@ -20,7 +19,7 @@ This repo documents a Research project I completed during the summer of my senio
 
 ## Repository Structure
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── week 1 notes/                       # Initial progress logs and research notes
@@ -30,6 +29,6 @@ This repo documents a Research project I completed during the summer of my senio
 │   └── random_sample_Jax.ipynb          # 
 ├── week 3/                            
 ├── numpynotes/                         # Np reference & scratchpad
-├── GenomicSequenceClassification.ipynb # **Primary research notebook ( All the DNA classification)
+├── GenomicSequenceClassification.ipynb # **Primary research notebook (my figures and project benchmark goals)
 ├── random_sample_Jax.ipynb             # High-performance JAX circuit sampling script
 └── README.md                           # Repository documentation
