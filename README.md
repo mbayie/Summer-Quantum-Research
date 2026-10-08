@@ -14,7 +14,7 @@ The QOS approach comes from Zhao et al., *"Exponential Quantum Advantage in Proc
 - QOS is a much more memory-efficient way to do genomic  data classification 
 
 
-The full write-up is in[MTendong Quantum Advantage in Classification.pdf](https://github.com/user-attachments/files/33183219/MTendong.Quantum.Advantage.in.Classification.pdf)
+The full write-up is in [MTendong Quantum Advantage in Classification.pdf](https://github.com/user-attachments/files/33183219/MTendong.Quantum.Advantage.in.Classification.pdf)
 
 
 ## Methodological Note
@@ -34,6 +34,10 @@ The classical results (SVC and SGD) are [empirical measurements] that I was actu
 * **Data & Machine Learning:** pandas, scikit-learn
 * **Visualization:** matplotlib
 
+## References
+
+Zhao et al. (2026). *Exponential quantum advantage in processing massive classical data*. arXiv, https://arxiv.org/abs/2604.07639
+
 ## Repository Structure
 
 ```text
@@ -47,7 +51,3 @@ The classical results (SVC and SGD) are [empirical measurements] that I was actu
 ├── GenomicSequenceClassification.ipynb # Primary research notebook (my figures and project benchmark goals)
 ├── random_sample_Jax.ipynb             # High-performance JAX circuit sampling script
 └── README.md                           # Repository documentation
-
-## References
-
-Zhao et al. (2026). *Exponential quantum advantage in processing massive classical data*. arXiv, https://arxiv.org/abs/2604.07639
