@@ -14,7 +14,8 @@ The QOS approach comes from Zhao et al., *"Exponential Quantum Advantage in Proc
 - QOS is a much more memory-efficient way to do genomic  data classification 
 
 
-The full write-up is in [MTendong Quantum Advantage in Classification.pdf](https://github.com/user-attachments/files/33183219/MTendong.Quantum.Advantage.in.Classification.pdf)
+The full write-up is in [MTendong Quantum Advantage in Classification (1).pdf](https://github.com/user-attachments/files/33184135/MTendong.Quantum.Advantage.in.Classification.1.pdf)
+
 
 
 ## Methodological Note
