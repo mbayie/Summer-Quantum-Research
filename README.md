@@ -1,14 +1,31 @@
 
 # Summer-Quantum-Research
-
-My first repo tracking my 2026 Quantum Computing research, consisting of weekly updates and computational implementations in quantum computing (QC) and machine learning (ML).
+Research repository for my 2026 mentored project comparing quantum oracle sketching (QOS) with classical machine learning methods for DNA promoter sequence classification, with a focus on memory use.
 
 ## Project Overview
-This repo documents a research project I completed during the summer of my senior year in high school that looked at quantum computing's efficiency in classifying promoter and non-promoter DNA sequences.
 
-### Focus Areas
-* **Quantum Machine Learning:** Hybrid classical-quantum classification models
-* **Genomics:** DNA promoter sequence classification
+I completed this project during the summer after my junior year under the wonderful mentorship of the Chicago Infleqtion staff. My project aimed to answer the research question  **how does the memory required by QOS compare with the memory required by classical SVC and SGD classifiers when classifying promoter vs. non-promoter DNA sequences?**
+
+The QOS approach comes from Zhao et al., *"Exponential Quantum Advantage in Processing Massive Classical Data"* (see [References](#references)). It claims that the QOS offers an exponential advantage when processing large data sets, evading the data loading bottleneck that typically happens when using classical methods. 
+
+## Key Findings
+
+- QOS needed only 42 qubits to classify the data compared to the 256 bits needed by the SGD and the 1,000,000+ bits needed by the SVC
+- QOS is a much more memory-efficient way to do genomic  data classification 
+
+
+The full write-up is in[MTendong Quantum Advantage in Classification.pdf](https://github.com/user-attachments/files/33183219/MTendong.Quantum.Advantage.in.Classification.pdf)
+
+
+## Methodological Note
+
+The classical results (SVC and SGD) are [empirical measurements] that I was actually able to synthesize. The QOS results are **analytical estimates** that came from the memory-scaling formula in Zhao et al.'s qos.py file, not direct empirical measurements. The comparison should be read with that distinction in mind.
+
+## Focus Areas
+
+- **Quantum-inspired/analytical methods:** QOS memory-scaling analysis compared against classical baselines
+- **Genomics:** DNA promoter sequence classification
+- **Classical ML baselines:** SVC and SGD classifiers
   
 ## Tech Stack & Dependencies
 
@@ -30,3 +47,7 @@ This repo documents a research project I completed during the summer of my senio
 ├── GenomicSequenceClassification.ipynb # Primary research notebook (my figures and project benchmark goals)
 ├── random_sample_Jax.ipynb             # High-performance JAX circuit sampling script
 └── README.md                           # Repository documentation
+
+## References
+
+Zhao et al. (2026). *Exponential quantum advantage in processing massive classical data*. arXiv, https://arxiv.org/abs/2604.07639
