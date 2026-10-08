@@ -19,7 +19,7 @@ The full write-up is in [MTendong Quantum Advantage in Classification.pdf](https
 
 ## Methodological Note
 
-The classical results (SVC and SGD) are [empirical measurements] that I was actually able to synthesize. The QOS results are **analytical estimates** that came from the memory-scaling formula in Zhao et al.'s qos.py file, not direct empirical measurements. The comparison should be read with that distinction in mind.
+The classical results (SVC and SGD) are empirical measurements that I was actually able to synthesize within the code. The QOS results are **analytical estimates** that came from the memory-scaling formula in Zhao et al.'s qos.py file, not direct empirical measurements. The comparison should be read with that distinction in mind.
 
 ## Focus Areas
 
@@ -36,7 +36,7 @@ The classical results (SVC and SGD) are [empirical measurements] that I was actu
 
 ## References
 
-Zhao et al. (2026). *Exponential quantum advantage in processing massive classical data*. arXiv, https://arxiv.org/abs/2604.07639
+Zhao et al. (2026). *Exponential quantum advantage in processing massive classical data* https://arxiv.org/abs/2604.07639
 
 ## Repository Structure
 
