@@ -19,16 +19,14 @@ This repo documents a research project I completed during the summer of my senio
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 ├── week 1 notes/                       # Initial progress logs and research notes
 ├── week 2 notes/
 │   ├── Blog-post-notes.md              # Blog post that was easy to read, recommended by mentor, has my takeaways & draft outlines
-│   ├── mini_reproduction.ipynb          # Small-scale reproduction experiments from the Zhao et al. experiment I am replicating 
-│   └── random_sample_Jax.ipynb          # 
+│   ├── mini_reproduction.ipynb         # Small-scale reproduction experiments from the Zhao et al. experiment I am replicating 
+│   └── random_sample_Jax.ipynb           
 ├── week 3/                            
 ├── numpynotes/                         # Np reference & scratchpad
-├── GenomicSequenceClassification.ipynb # **Primary research notebook (my figures and project benchmark goals)
+├── GenomicSequenceClassification.ipynb # Primary research notebook (my figures and project benchmark goals)
 ├── random_sample_Jax.ipynb             # High-performance JAX circuit sampling script
 └── README.md                           # Repository documentation
